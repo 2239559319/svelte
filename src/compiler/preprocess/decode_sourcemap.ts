@@ -84,5 +84,5 @@ export function decode_map(processed: Processed) {
 		decoded_map = decoded_sourcemap_from_generator(decoded_map);
 	}
 
-	return decoded_map;
+	return decoded_map
 }
